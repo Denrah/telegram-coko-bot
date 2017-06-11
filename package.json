@@ -1,0 +1,19 @@
+{
+  "name": "coko_bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for coko.tomsk.ru site",
+  "main": "index.js",
+  "dependencies": {
+    "node-horseman": "^3.3.0",
+    "node-telegram-bot-api": "^0.27.1",
+    "phantomjs-prebuilt": "^2.1.14",
+    "phantomjs": "^2.1.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node index.js"
+  },
+  "author": "Denrah",
+  "license": "ISC"
+}
